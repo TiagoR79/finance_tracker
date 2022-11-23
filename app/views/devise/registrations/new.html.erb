@@ -1,5 +1,5 @@
 <div class="row">
-  <div class="col-md-6">
+  <div class="bg-dark text-info p-3 mt-4 rounded">
     <h2 class="pb-4"><%= t('.sign_up') %></h2>
 
     <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
@@ -27,7 +27,7 @@
       </div>
 
       <div class="mb-3">
-	<%= f.submit t('.sign_up'), class: 'btn btn-info' %>
+	<%= f.submit t('.sign_up'), class: 'btn btn-outline-info' %>
       </div>
     <% end %>
 
