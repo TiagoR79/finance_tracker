@@ -16,9 +16,4 @@
   <% end %>
 </div>
 
-<% if @stock %>
-  <div class="card card-header">
-    <strong>Symbol: </strong> <%= @stock.ticker %>
-    <strong>Price: </strong> <%= @stock.price %>
-  </div>
-<% end %>
+<%= render 'users/result' %>
